@@ -1,0 +1,112 @@
+<table>
+    <caption>Produtos vendidos </caption>
+    <thead>
+        <tr>
+            <th></th>
+            <th>loja1 </th>
+            <th>loja2 </th>
+            <th>loja3 </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Bola</th>
+            <td>10</td>
+            <td>8</td>
+            <td>12</td>
+        </tr>
+    <tr>
+      <th>Tênis</th>
+      <td>5</td>
+      <td>4</td>
+      <td>8</td>
+    </tr>
+
+    <tr>
+      <th>Chapéu</th>
+      <td>8</td>
+      <td>10</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <th>Total</th>
+    <td>23</td>
+    <td>22</td>
+    <td>23</td>
+  </tfoot>
+</table>
+<br>
+<br>
+<br>
+
+<table border="1">
+  <caption>Produtos produzidos x vendidos por loja</caption>
+
+  <colgroup>
+    <col>
+    <col span="2" style="background-color:lightblue;">
+    <col span="2" style="background-color:lightcyan;">
+  </colgroup>
+
+  <rowgroup>
+    <row style="background-color: lightgray;">
+  </rowgroup>
+
+  <thead>
+    <tr>
+      <th rowspan="2"></th>
+      <th colspan="2" scope="colgroup">Loja norte</th>
+      <th colspan="2" scope="colgroup">Loja Sul</th> b nb  b  n bc
+    </tr>
+
+    <tr>
+      <th scope="col">Produzidos</th>
+      <th scope="col">Vendidos</th>
+      <th scope="col">Produzidos</th>
+      <th scope="col">Vendidos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Chuteira</th>
+      <td>25</td>
+      <td>15</td>
+      <td>20</td>
+      <td>18</td>
+
+    </tr>
+
+    <tr>
+    <th scope="row">Uniforme</th>
+    <td>50</td>
+    <td>25</td>
+    <td>35</td> 
+    <td>20</td>
+    </tr>
+
+    <tr>
+      <th scope="row">Bola</th>
+      <td>20</td>
+      <td>20</td>
+      <td>30</td>
+      <td>18</td>
+
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>Total</th>
+      <td>95</td>
+      <td>60</td>
+      <td>85</td>
+      <td>56</td>
+    </tr>
+  </tfoot>
+</table>
+
+
+
+
+
