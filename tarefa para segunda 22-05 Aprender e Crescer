@@ -1,0 +1,98 @@
+<table border="1">
+ 
+  <colgroup>
+    <col span="2" style="background-color:yellow;"> 
+    <col span="2" style="background-color:lightskyblue;">
+    <col span="2" style="background-color:red;">
+    
+    
+
+  </colgroup>
+
+  <rowgroup>
+    <row style="background-color: lightgray;">
+  </rowgroup>
+
+  <thead>
+    <tr>
+        <th colspan="6" scope="colgroup" style="background-color:gray;">Tabela de preço de carros concorrentes 0 KM</th>
+    </tr>
+
+    <tr>
+ 
+      <th colspan="2" scope="colgroup">Chevrolet</th>
+      <th colspan="2" scope="colgroup">Volskwagen</th>
+      <th colspan="2" scope="colgroup">Toyota</th>
+    </tr>
+
+    <tr>
+      <th scope="col">Nome</th>
+      <th scope="col">Preço</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Preço</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Preço</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+     
+      <td>Onix</td>
+      <td>R$ 112.390,00</td>
+      <td>Polo</td>
+      <td> R$ 111.990,00</td>
+      <td>Yaris</td>
+      <td>R$ 117.590,00</td>
+
+    </tr>
+
+    <tr>
+   
+    <td>S10</td>
+    <td>R$ 306.990,00</td>
+    <td>Amarok</td> 
+    <td>R$ 335.500,00</td>
+    <td>Hilux</td>
+    <td>R$ 367.390,00</td>
+    </tr>
+
+    <tr>
+   
+      <td>Cruze</td>
+      <td>R$ 151.650,00</td>
+      <td>Jetta</td>
+      <td>R$ 189.990,00</td>
+      <td>Corolla</td> 
+      <td> R$ 182.090,00</td>   
+    
+
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      
+      <td>Tracker</td>
+      <td>R$ 158.990,00</td>
+      <td>Nivus</td>
+      <td>R$160.890,00</td>
+      <td>Yaris SUV</td>
+      <td>R$155.690,00</td>
+
+    </tr>
+
+    <tr>
+        
+
+        <td>Trailblazer</td>
+        <td>R$ 379.620,00</td>
+        <td>Tiguan</td>
+        <td>389.980,990</td>
+        <td>Rav 4</td>
+        <td> R$ 322.890,00</td>
+     </tr>
+        
+
+  </tfoot>
+</table>
+
+
