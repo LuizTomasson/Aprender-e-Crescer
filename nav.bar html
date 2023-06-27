@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula 16 - Prática</title>
+    <link rel="stylesheet" href="testenav_bar.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="nav-container">
+        <a href="index.html">
+          <img
+            src="https://scontent.figu2-1.fna.fbcdn.net/v/t39.30808-6/301824635_498564895611820_4694950539559538858_n.png?_nc_cat=103&cb=99be929b-3346023f&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGWw0Ws61uU2t7f143MJTQFjRD8L1YdndeNEPwvVh2d1wgnBLPTZFvX3G9t0_wNRK84kaFzjzVEHhJeyO6yg_ey&_nc_ohc=za69NdmJAq4AX9fVVKm&_nc_ht=scontent.figu2-1.fna&oh=00_AfD7tZo8Tr_dRhO-s1pNNIKUgNHWV5j4ueyuN2vaoisxAg&oe=649E9282"
+            alt="Logo da empresa sudotec"
+          />
+        </a>
+  
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-list_items">Produtos</li>
+            <li class="nav-list_items">Contato</li>
+            <li class="nav-list_items">FAQ</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="section-1">
+      <div class="section-1_container">
+        <img class="section-img" src="https://lh3.googleusercontent.com/p/AF1QipMNvz6LKS7Nl2RweswbrL0oeguh2PV4cuqpDPk=s1360-w1360-h1020" alt="">
+        <div class="section-text">
+          <h1>Increva-se para as aulas de web 1 da Sudotec</h1>
+          <p class="nav-list_items">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat accusantium enim soluta, distinctio quae totam! Facere molestiae ea saepe rem. Minima atque nihil debitis consequuntur officiis error, numquam iusto necessitatibus.</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
