@@ -1,0 +1,50 @@
+public class tarefa_pardin {
+
+    static class Caneta {
+        String cor;
+        double carga;
+        String modelo;
+
+        public void escrever() {
+            System.out.println("Escrevendo alguma coisa");
+        }
+
+        public void desenhar() {
+            System.out.println("Desenhando um sol");
+        }
+
+        public void assinar() {
+            int numeroA, numeroB, resultado;
+            numeroA = 12;
+            numeroB = 8;
+
+            resultado = numeroA + numeroB;
+
+            System.out.println("Assinando um documento " + resultado);
+        }
+    }
+
+    public static void main(String[] args) {
+        Caneta canetaBranca = new Caneta();
+        canetaBranca.cor = "Branco";
+        canetaBranca.carga = 1.0;
+        canetaBranca.modelo = "Bic Crystal";
+
+        Caneta bluePen = new Caneta();
+        bluePen.carga = 9.0;
+        bluePen.modelo = "Manoel Gomes - Bic Crystal";
+        bluePen.cor = "Blue";
+
+        Caneta canetaVermelha = new Caneta();
+        canetaVermelha.carga = 1.0;
+        canetaVermelha.modelo = "Bic Crystal";
+        canetaVermelha.cor = "Vermelha";
+
+        canetaVermelha.escrever();
+        
+        Aluno Felipe = new Aluno();
+        Felipe.nome = "Felipe";
+        
+        Felipe.participarDaAula();
+    }
+}
