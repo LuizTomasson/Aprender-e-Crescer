@@ -1,0 +1,202 @@
+https://dontpad.com/web1/aula25
+
+
+https://prod.liveshare.vsengsaas.visualstudio.com/join?7A276EF49CDAE12AF8FDEF2ED99736089E4C
+
+
+index.html ==
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar responsiva</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <ul class="nav-panel" id="nav-panel">
+      <li>
+        <a href="">Home</a>
+      </li>
+      <li>
+        <a href="">Faq</a>
+      </li>
+      <li>
+        <a href="">Contact</a>
+      </li>
+      <li>
+        <a href="">Blog</a>
+      </li>
+      <li>
+        <a href="">Support</a>
+      </li>
+    </ul>
+
+    <nav>
+      <a href="index.html">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0fS9qRFqX9OWnPSApTGg-aDT9ua1LBWLfo_babWQ&s" alt="Logotipo da Sudotec">
+      </a>
+
+      <button class="hamburguer-button" id="hamburguer-button">
+        <span class="hamburguer-button_line"></span>
+        <span class="hamburguer-button_line"></span>
+        <span class="hamburguer-button_line"></span>
+      </button>
+
+      <ul class="nav-list">
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="">Faq</a>
+        </li>
+        <li>
+          <a href="">Contact</a>
+        </li>
+        <li>
+          <a href="">Blog</a>
+        </li>
+        <li>
+          <a href="">Support</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <script>
+    const hamburguerButton = document.getElementById("hamburguer-button")
+    const panel = document.getElementById("nav-panel")
+
+    hamburguerButton.addEventListener("click", function() {
+      const panelIsActive = panel.classList.contains("nav-panel_active")
+      
+      if (panelIsActive) {
+        panel.classList.remove("nav-panel_active")
+      } else {
+        panel.classList.add("nav-panel_active")
+      }
+    })
+
+  </script>
+</body>
+</html>
+
+style.css ==
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+header {
+  height: 80px;
+  background-color: #232323;
+  padding: 8px 24px;
+  position: relative;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+a {
+  flex: 1;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}
+
+.nav-list {
+  flex: 3;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-list a {
+  color: #cdcdcd;
+  text-decoration: none;
+}
+
+.hamburguer-button {
+  all: unset;
+  appearance: none;
+
+  display: none;
+
+  width: 60px;
+  height: 40px;
+
+  background-color: transparent;
+
+  cursor: pointer;
+  z-index: 10;
+}
+
+.hamburguer-button_line {
+  width: 100%;
+  height: 8px;
+  background-color: #cdcdcd;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 550px) {
+  .nav-list {
+    display: none;
+  }
+
+  .hamburguer-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.nav-panel {
+  padding-top: 100px;
+
+  width: 50vw;
+  height: 100vh;
+
+  background-color: #232323;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(100%, 0);
+  transition: all 0.25s;
+
+  z-index: 5;
+
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8;
+}
+
+.nav-panel a {
+  color: #cdcdcd;
+  text-decoration: none;
+}
+
+.nav-panel_active {
+  transform: translate(0, 0);
+}
