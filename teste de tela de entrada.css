@@ -1,0 +1,109 @@
+body{
+    overflow: hidden;
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.background{
+    background-image: url("https://i.pinimg.com/564x/8c/51/9c/8c519c55fd83d39adf5e57e312392b26.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+@media only screen and (max-width: 1647px){
+    body{
+        flex-direction: column;
+    }
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+li{
+    list-style-type: none;
+}
+.navBar{        
+    display: flex;
+    height: 80px;
+   background: whi;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.navBar img{
+    height: 75px;
+    width: 75px ;
+}
+.logo_Orion{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo_Orion img{
+    width: 50px;
+    height: 50px;
+}
+
+.navigation  ul{
+    display: flex;
+    gap: 45px;
+}
+
+    
+
+ button{
+    padding: 7px;
+    margin: 8px;
+    width: 170px;
+    height: 48px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: rgba(0, 0, 0, 0.983); 
+    color: #ffffff;
+ }
+.title{
+    padding: 12px;
+    color: black;
+    margin: 15px;
+
+}
+
+.title h1{
+    
+    font-family: Acme;
+}
+
+
+    
+.logo_Orion{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+}
+.logo_Orion span{
+    font-weight: bold;
+    color: black;
+   
+}
+
+.erick:hover{
+    background-position: 1000px;
+    transition: 500ms;
+    transform: scale(1.2    );
+    transform: rotate(1.2);
+}
+
